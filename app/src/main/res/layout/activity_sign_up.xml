@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="@color/primaryText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:text="Create A New Account"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/secondaryText" />
+
+    <EditText
+        android:id="@+id/signupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:hint="Email Address"
+        android:textColorHint="@color/secondaryText"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/ubuntu_bold"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/_15ssp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp" />
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:fontFamily="@font/ubuntu_bold"
+        android:hint="Password"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:inputType="textVisiblePassword"
+        android:maxLines="1"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textColor="@color/primaryText"
+        android:textColorHint="@color/secondaryText"
+        android:textSize="@dimen/_15ssp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:animateLayoutChanges="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/round_corner_button"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/signupProgressBar"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have An Account?"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/primaryText"/>
+
+        <TextView
+            android:id="@+id/backToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign In"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:fontFamily="@font/ubuntu_bold"
+            android:layout_marginStart="@dimen/_5sdp" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

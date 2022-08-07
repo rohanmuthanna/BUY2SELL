@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009524153081",
+    "firebase_url": "https://buy2sellapplication-default-rtdb.firebaseio.com",
+    "project_id": "buy2sellapplication",
+    "storage_bucket": "buy2sellapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009524153081:android:54971e6b795e214a96a028",
+        "android_client_info": {
+          "package_name": "buy2sell.rohanmuthanna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009524153081-0j4m1hcpp8s2ecl80qq74bou4frp56d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "buy2sell.rohanmuthanna",
+            "certificate_hash": "77849fdfc093b99ebbff93bedfd540bf68aa1c26"
+          }
+        },
+        {
+          "client_id": "1009524153081-og1gs9ha1stbl0arutgji0leq22k38ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrjlk5eDLKx8gUBamK7My0qaVIW6GM0X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009524153081-og1gs9ha1stbl0arutgji0leq22k38ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

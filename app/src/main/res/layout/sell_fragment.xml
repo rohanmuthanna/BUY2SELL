@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Want To Sell?"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/primaryText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:text="List Your Item For Free Within Seconds"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/secondaryText" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:hint="Enter Product Name"
+        android:textColorHint="@color/secondaryText"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/ubuntu_bold"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/_15ssp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp" />
+
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/Image_tag"
+        android:paddingStart="@dimen/_20sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:paddingEnd="@dimen/_20sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="UPLOAD PRODUCT IMAGE"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="@dimen/_130sdp"
+        android:background="@drawable/background_for_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_choose_image"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_file_price"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:hint="Enter Product Price"
+        android:textColorHint="@color/secondaryText"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/ubuntu_bold"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textSize="@dimen/_15ssp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp" />
+
+
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:hint="Product Category:\nProduct Location: \nDetailed Description: "
+        android:gravity="top"
+        android:textColorHint="@color/secondaryText"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/ubuntu_bold"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:textSize="@dimen/_15ssp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/_140sdp"
+        android:layout_below="@+id/Description"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="-4dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_below="@+id/Image_tag"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:background="@drawable/round_corner_edit_text"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="SELL"
+        android:textSize="@dimen/_16ssp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
+
